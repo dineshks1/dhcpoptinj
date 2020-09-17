@@ -5,6 +5,10 @@ addons:
          - libnetfilter-queue-dev
 dist: xenial
 language: c
+arch:
+ - amd64
+ - ppc64le
+ 
 compiler:
    - clang
    - gcc
