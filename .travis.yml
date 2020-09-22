@@ -8,6 +8,10 @@ language: c
 compiler:
    - clang
    - gcc
+arch:
+ -amd64
+ -ppc64le
+ 
 before_script:
    - mkdir build
 script:
